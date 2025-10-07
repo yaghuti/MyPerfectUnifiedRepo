@@ -1,0 +1,95 @@
+Collecting pydantic==2.9.2
+  Downloading pydantic-2.9.2-py3-none-any.whl.metadata (149 kB)
+Requirement already satisfied: PyYAML==6.0.2 in /home/codespace/.local/lib/python3.12/site-packages (6.0.2)
+Requirement already satisfied: requests==2.32.4 in /home/codespace/.local/lib/python3.12/site-packages (2.32.4)
+Collecting pycvesearch==1.2
+  Downloading pycvesearch-1.2-py3-none-any.whl.metadata (3.3 kB)
+Collecting Jinja2==3.1.4
+  Downloading jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting questionary==2.0.1
+  Downloading questionary-2.0.1-py3-none-any.whl.metadata (5.4 kB)
+Collecting docker==7.1.0
+  Downloading docker-7.1.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting splunk-sdk==2.0.2
+  Downloading splunk-sdk-2.0.2.tar.gz (107 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting semantic-version==2.10.0
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Collecting tqdm==4.66.5
+  Downloading tqdm-4.66.5-py3-none-any.whl.metadata (57 kB)
+Collecting pygit2==1.15.1
+  Downloading pygit2-1.15.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.3 kB)
+Collecting gitpython==3.1.43
+  Downloading GitPython-3.1.43-py3-none-any.whl.metadata (13 kB)
+Collecting rich==14.0.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Requirement already satisfied: setuptools in /home/codespace/.local/lib/python3.12/site-packages (80.9.0)
+Collecting annotated-types>=0.6.0 (from pydantic==2.9.2)
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.23.4 (from pydantic==2.9.2)
+  Downloading pydantic_core-2.23.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Requirement already satisfied: typing-extensions>=4.6.1 in /home/codespace/.local/lib/python3.12/site-packages (from pydantic==2.9.2) (4.14.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/codespace/.local/lib/python3.12/site-packages (from requests==2.32.4) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in /home/codespace/.local/lib/python3.12/site-packages (from requests==2.32.4) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/codespace/.local/lib/python3.12/site-packages (from requests==2.32.4) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/codespace/.local/lib/python3.12/site-packages (from requests==2.32.4) (2025.7.9)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/codespace/.local/lib/python3.12/site-packages (from Jinja2==3.1.4) (3.0.2)
+Collecting prompt_toolkit<=3.0.36,>=2.0 (from questionary==2.0.1)
+  Downloading prompt_toolkit-3.0.36-py3-none-any.whl.metadata (7.0 kB)
+Collecting deprecation (from splunk-sdk==2.0.2)
+  Downloading deprecation-2.1.0-py2.py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: cffi>=1.16.0 in /home/codespace/.local/lib/python3.12/site-packages (from pygit2==1.15.1) (1.17.1)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /home/codespace/.local/lib/python3.12/site-packages (from gitpython==3.1.43) (4.0.12)
+Collecting markdown-it-py>=2.2.0 (from rich==14.0.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/codespace/.local/lib/python3.12/site-packages (from rich==14.0.0) (2.19.2)
+Requirement already satisfied: smmap<6,>=3.0.1 in /home/codespace/.local/lib/python3.12/site-packages (from gitdb<5,>=4.0.1->gitpython==3.1.43) (5.0.2)
+Requirement already satisfied: wcwidth in /home/codespace/.local/lib/python3.12/site-packages (from prompt_toolkit<=3.0.36,>=2.0->questionary==2.0.1) (0.2.13)
+Requirement already satisfied: pycparser in /home/codespace/.local/lib/python3.12/site-packages (from cffi>=1.16.0->pygit2==1.15.1) (2.22)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich==14.0.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: packaging in /home/codespace/.local/lib/python3.12/site-packages (from deprecation->splunk-sdk==2.0.2) (25.0)
+Downloading pydantic-2.9.2-py3-none-any.whl (434 kB)
+Downloading pycvesearch-1.2-py3-none-any.whl (4.1 kB)
+Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+Downloading questionary-2.0.1-py3-none-any.whl (34 kB)
+Downloading docker-7.1.0-py3-none-any.whl (147 kB)
+Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Downloading tqdm-4.66.5-py3-none-any.whl (78 kB)
+Downloading pygit2-1.15.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.1/5.1 MB 49.2 MB/s eta 0:00:00
+Downloading GitPython-3.1.43-py3-none-any.whl (207 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+Downloading pydantic_core-2.23.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 47.2 MB/s eta 0:00:00
+Downloading prompt_toolkit-3.0.36-py3-none-any.whl (386 kB)
+Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading deprecation-2.1.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: splunk-sdk
+  Building wheel for splunk-sdk (pyproject.toml): started
+  Building wheel for splunk-sdk (pyproject.toml): finished with status 'done'
+  Created wheel for splunk-sdk: filename=splunk_sdk-2.0.2-py3-none-any.whl size=124129 sha256=fb42116694d9e52a8dc4abbb00796d5d4e2c87bf2529dac49a37d472dc4d4239
+  Stored in directory: /home/codespace/.cache/pip/wheels/3d/c6/f7/e4039512eb33e82b632ad621b0566fa9fdfd7653a3f7d0169f
+Successfully built splunk-sdk
+Installing collected packages: tqdm, semantic-version, pydantic-core, prompt_toolkit, mdurl, Jinja2, deprecation, annotated-types, splunk-sdk, questionary, pygit2, pydantic, pycvesearch, markdown-it-py, gitpython, docker, rich
+  Attempting uninstall: prompt_toolkit
+    Found existing installation: prompt_toolkit 3.0.51
+    Uninstalling prompt_toolkit-3.0.51:
+      Successfully uninstalled prompt_toolkit-3.0.51
+  Attempting uninstall: Jinja2
+    Found existing installation: Jinja2 3.1.6
+    Uninstalling Jinja2-3.1.6:
+      Successfully uninstalled Jinja2-3.1.6
+  Attempting uninstall: gitpython
+    Found existing installation: GitPython 3.1.44
+    Uninstalling GitPython-3.1.44:
+      Successfully uninstalled GitPython-3.1.44
+
+Successfully installed Jinja2-3.1.4 annotated-types-0.7.0 deprecation-2.1.0 docker-7.1.0 gitpython-3.1.43 markdown-it-py-4.0.0 mdurl-0.1.2 prompt_toolkit-3.0.36 pycvesearch-1.2 pydantic-2.9.2 pydantic-core-2.23.4 pygit2-1.15.1 questionary-2.0.1 rich-14.0.0 semantic-version-2.10.0 splunk-sdk-2.0.2 tqdm-4.66.5
